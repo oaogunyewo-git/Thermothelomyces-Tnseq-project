@@ -1,0 +1,19 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Never commit sequencing data
+*.fastq
+*.fq
+*.bam
+*.sam
+*.gz
+*.tar
+*.zip
+
+# Ignore results/figures/scratch
+results/
+outputs/
+figures/
+data/
+logs/
